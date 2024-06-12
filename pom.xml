@@ -15,5 +15,6 @@
     </properties>
     <modules>
         <module>app</module>
+        <module>app/library/plugins/red_circle</module>
     </modules>
 </project>

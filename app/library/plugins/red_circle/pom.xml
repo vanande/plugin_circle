@@ -5,15 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.odm</groupId>
-    <artifactId>app</artifactId>
+    <artifactId>red_circle</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <parent>
+        <groupId>com.drawer.circle</groupId>
+        <artifactId>circle_drawer</artifactId>
+        <version>0.0.1</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>com.drawer.circle.app</groupId>
+            <artifactId>app</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <modules>
-        <module>red_circle</module>
-    </modules>
+    
 </project>
